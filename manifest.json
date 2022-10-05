@@ -1,0 +1,12 @@
+{
+  "name": "Google Selector",
+  "description": "Adds numpad keybinds to the google search results pages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search?q=*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
